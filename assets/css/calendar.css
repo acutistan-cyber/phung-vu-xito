@@ -1,0 +1,102 @@
+.phung-vu-calendar-wrapper {
+    font-family: Arial, sans-serif;
+    margin: 20px 0;
+}
+
+.calendar-header {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.calendar-header h2 {
+    margin: 0;
+    color: #333;
+}
+
+.calendar-legend {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.calendar-legend h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.calendar-legend ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.calendar-legend li {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.color-box {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border: 1px solid #999;
+    border-radius: 3px;
+}
+
+.calendar-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.calendar-table thead {
+    background-color: #2c3e50;
+    color: white;
+}
+
+.calendar-table th {
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.calendar-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.calendar-table tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+.calendar-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.color-badge {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+@media (max-width: 768px) {
+    .calendar-table {
+        font-size: 12px;
+    }
+    
+    .calendar-table th,
+    .calendar-table td {
+        padding: 8px;
+    }
+}
